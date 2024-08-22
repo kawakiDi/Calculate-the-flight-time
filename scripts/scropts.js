@@ -166,7 +166,7 @@ function calculatorBody () {
 }
 
 function displayingData (time) {
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 5; i++) {
     if (time >= timeUnits[0][i]) {
       dashboardValueOfTimeElement[i].innerText = Math.floor(time / timeUnits[0][i])
       dashboardTypeOfTimeElement[i].innerText = timeUnits[1][i]
@@ -180,7 +180,7 @@ function displayingData (time) {
 
   let empty = true
 
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 5; i++) {
     if ( dashboardTypeOfTimeElement[i].innerText !== '' ) { return empty = false }
   }
 
