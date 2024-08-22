@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+
+  <main class="main">
+    <div class="wrapper">
+
+
+      <div class="main-title">
+        <h1>Calculate the flight time!</h1>
+      </div>
+
+      <div class="calculator">
+        <div class="dashboard">
+          <div class="dashboard__block dashboard__time">
+            <ul class="dashboard__valueOfTime dashboard__list">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+             </ul>
+             <ul class="dashboard__typeOfTime dashboard__list">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+             </ul>
+          </div>
+          <div class="dashboard__block">
+            <input class="dashboard__valueOfDistance input" type="number" placeholder="0">
+            <div class="dashboard__typeOfDistance list__type">
+              <button type="button" class="active">km</button>
+              <button type="button">au</button>
+              <button type="button">ly</button>
+              <button type="button">pc</button>
+            </div>
+          </div>
+          <div class="dashboard__block">
+            <input class="dashboard__valueOfSpeed input" type="number" placeholder="0">
+            <div class="dashboard__typeOfSpeed list__type">
+              <button type="button" class="active">km/h</button>
+              <button type="button">m/s</button>
+              <button type="button">c</button>
+            </div>
+          </div>
+        </div>
+        <div class="tabs">
+          <div class="tabs__switching">
+            <button class="tabs__button active" type="button">speed</button>
+            <button class="tabs__button" type="button">distance</button>
+          </div>
+          <div class="speed">
+            <div class="change">
+              <button class="change__button add" id="speed-remove" type="button"><span>+ </span>add</but>
+              <button class="change__button remove" id="speed-remove" type="button"><span>- </span>remove</button>
+            </div>
+            <ul class="speed__list list">
+              <!-- <li id="speedID-0" class="list__item active-item">
+                <div class="list__name">Voyager-1</div>
+                <div class="list__value">17000</div>
+              </li>
+              <li id="speedID-1" class="list__item">
+                <div class="list__name">Voyager-2</div>
+                <div class="list__value">27000</div>
+              </li>
+              <li id="speedID-2" class="list__item">
+                <div class="list__name">Voyager-3</div>
+                <div class="list__value">37000</div>
+              </li> -->
+            </ul>
+          </div>
+          <div class="distance" hidden>
+            <div class="change">
+              <button class="change__button add" id="distance__add" type="button"><span>+ </span>add</but>
+              <button class="change__button remove" id="distance__remove" type="button"><span>- </span>remove</button>
+            </div>
+            <ul class="distance__list list">
+              <!-- <li id="distanceID-0" class="list__item active-item">
+                <div class="list__name">Andromeda Galaxy</div>
+                <div class="list__value">2537000</div>
+              </li>
+              <li id="distanceID-1" class="list__item">
+                <div class="list__name">Triangulum Galaxy</div>
+                <div class="list__value">2723000</div>
+              </li>
+              <li id="distanceID-2" class="list__item">
+                <div class="list__name">Orion Nebula</div>
+                <div class="list__value">1344</div>
+              </li>
+              <li id="distanceID-3" class="list__item">
+                <div class="list__name">Circinus Galaxy</div>
+                <div class="list__value">13050000</div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="add-card">
+    <form class="form">
+      <input class="form__name form__input" type="text" id="" placeholder="name of value">
+      <input class="form__value form__input" type="number" placeholder="0">
+      <button class="form__add form__button" type="button">add</button>
+      <button class="form__cancel form__button" type="button">cancel</button>
+    </form>
+  </div>
+
+<div class="background-text">
+  The Vastness of Space: A Journey Through the Cosmos
+  
+  The universe, an almost infinite expanse of space and time, has captivated human imagination for centuries. From the earliest stargazers who mapped the heavens to modern scientists launching spacecraft beyond our solar system, humanity&rsquo;s quest to understand the cosmos has driven us to achieve remarkable feats of science and engineering. 
+  
+  The Scale of the Universe
+  
+  The universe is unimaginably vast. It&rsquo;s so immense that we measure distances in light-years—the distance that light travels in one year, which is approximately 9.46 trillion kilometers (5.88 trillion miles). The nearest star to our solar system, Proxima Centauri, is about 4.24 light-years away. Beyond that, our galaxy, the Milky Way, spans about 100,000 light-years across and contains between 100 billion and 400 billion stars. But even our galaxy is just a speck in the grand scheme of the universe, which is estimated to contain over two trillion galaxies, each with billions of stars and planets.
+  
+  The Big Bang and the Expanding Universe
+  
+  The prevailing theory about the origin of the universe is the Big Bang, a colossal explosion that occurred approximately 13.8 billion years ago. This event marked the beginning of the universe, with all matter and energy contained in an infinitely small, hot, and dense point known as a singularity. The Big Bang theory suggests that the universe has been expanding ever since, with galaxies moving away from each other as space itself stretches.
+  
+  One of the most significant pieces of evidence supporting this theory is the cosmic microwave background (CMB) radiation, a faint glow of radiation left over from the early universe. Discovered by accident in 1965 by Arno Penzias and Robert Wilson, the CMB is a snapshot of the universe when it was just 380,000 years old, providing invaluable insights into its early state and subsequent evolution.
+  
+  Dark Matter and Dark Energy
+  
+  Despite all we have learned about the universe, it remains full of mysteries. Two of the most perplexing are dark matter and dark energy. Dark matter is an invisible substance that makes up about 27% of the universe&rsquo;s mass-energy content. Although it cannot be seen or directly detected, its presence is inferred from its gravitational effects on visible matter, such as the rotation of galaxies.
+  
+  Even more enigmatic is dark energy, which constitutes about 68% of the universe. Dark energy is believed to be responsible for the accelerated expansion of the universe. The nature of dark energy is still largely unknown, and understanding it is one of the greatest challenges in modern cosmology.
+  
+  The Solar System: Our Cosmic Neighborhood
+  
+  Our solar system, a small part of the Milky Way, consists of the Sun, eight planets, their moons, and various other objects such as asteroids, comets, and dwarf planets. The Sun, a medium-sized star, is the central point around which everything in the solar system orbits.
+  
+  The Inner Planets: The four planets closest to the Sun—Mercury, Venus, Earth, and Mars—are known as the terrestrial planets because of their rocky surfaces. Earth, our home, is the only planet known to support life, with its abundant water, protective atmosphere, and favorable climate.
+  
+  The Outer Planets: Beyond the asteroid belt lie the gas giants Jupiter and Saturn, and the ice giants Uranus and Neptune. These planets are much larger than the terrestrial planets and have thick atmospheres composed mainly of hydrogen and helium. Jupiter, the largest planet in our solar system, has a mass more than twice that of all the other planets combined.
+  
+  Dwarf Planets: Beyond Neptune lies the Kuiper Belt, a region of the solar system filled with icy bodies and dwarf planets, including Pluto. Once considered the ninth planet, Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union.
+  
+  The Moon: Humanity's First Step Beyond Earth
+  
+  The Moon, Earth&rsquo;s only natural satellite, has been a source of wonder for millennia. It is the second brightest object in the sky after the Sun and has played a significant role in human culture, mythology, and science. The Moon&rsquo;s gravitational pull affects Earth&rsquo;s tides and stabilizes its axial tilt, which contributes to our planet&rsquo;s relatively stable climate.
+  
+  In the 20th century, the Moon became the focal point of the space race between the United States and the Soviet Union. The successful landing of Apollo 11 on July 20, 1969, marked a monumental achievement in human history. Astronauts Neil Armstrong and Buzz Aldrin became the first humans to set foot on the Moon, with Armstrong&rsquo;s famous words, "That's one small step for man, one giant leap for mankind," echoing around the world.
+  
+  The Apollo missions provided unprecedented insights into the Moon&rsquo;s geology, leading to the discovery that it was formed from debris left over after a Mars-sized body collided with the early Earth. Samples brought back by the astronauts have allowed scientists to study the Moon&rsquo;s composition, revealing a history of volcanic activity and impact cratering.
+  
+  Mars: The Next Frontier
+  
+  Mars, the fourth planet from the Sun, has long been a target of human fascination and the most likely candidate for future manned missions. Known as the Red Planet due to its iron oxide-rich surface, Mars has a thin atmosphere composed mostly of carbon dioxide, and its surface features include the largest volcano in the solar system, Olympus Mons, and the longest canyon, Valles Marineris.
+  
+  Recent robotic missions, such as NASA&rsquo;s Perseverance rover, have been exploring Mars in search of signs of past life and preparing the way for human exploration. Perseverance is equipped with sophisticated instruments designed to study the planet&rsquo;s geology, climate, and potential for habitability. It has already made significant discoveries, such as identifying ancient river deltas that suggest Mars once had liquid water on its surface.
+  
+  One of the most ambitious plans for Mars is SpaceX&rsquo;s Starship program, which aims to send humans to the planet by the 2030s. The challenges of such a mission are immense, including the need for sustainable life support systems, radiation protection, and the ability to produce food and fuel on Mars. However, the potential rewards—a new frontier for humanity—are equally immense.
+  
+  The Search for Extraterrestrial Life
+  
+  The question of whether we are alone in the universe is one of the most profound in science. While Earth is currently the only known planet to support life, the discovery of extremophiles—organisms that can survive in extreme conditions on Earth—has expanded the potential habitats where life might exist elsewhere in the universe.
+  
+  The search for extraterrestrial life is focused on several fronts:
+  
+  Exoplanets: Since the discovery of the first exoplanet in 1992, over 5,000 exoplanets have been confirmed, with thousands more candidates waiting for confirmation. The Kepler Space Telescope played a crucial role in this discovery, revealing that planets are common in the galaxy. The search for potentially habitable exoplanets focuses on those located in the "habitable zone" of their star, where conditions might be right for liquid water to exist.
+  
+  Moons of the Outer Planets: Some of the moons of Jupiter and Saturn, such as Europa, Enceladus, and Titan, are considered promising candidates in the search for life. Europa and Enceladus are believed to have subsurface oceans beneath their icy crusts, where microbial life could potentially exist. Titan, with its thick atmosphere and lakes of liquid methane and ethane, presents a unique environment that could host life forms radically different from those on Earth.
+  
+  SETI (Search for Extraterrestrial Intelligence): SETI involves scanning the skies for signals from intelligent civilizations. Although no definitive evidence has been found yet, the search continues with ever more sensitive instruments and methods, driven by the belief that if intelligent life exists elsewhere, it may be attempting to communicate.
+  
+  Space Exploration: Achievements and Future Prospects
+  
+  The journey into space began in earnest with the launch of Sputnik 1 by the Soviet Union on October 4, 1957, marking the start of the space age. This was followed by a series of milestones, including the first human in space, Yuri Gagarin, in 1961, and the first Moon landing by Apollo 11 in 1969.
+  
+  Since those early days, space exploration has expanded dramatically. The establishment of the International Space Station (ISS) in 1998 represents one of the most significant achievements in international cooperation, with space agencies from around the world working together to create a laboratory in low Earth orbit. The ISS serves as a hub for scientific research, technological development, and international collaboration, hosting experiments that cannot be conducted on Earth.
+  
+  Looking forward, space agencies and private companies have ambitious plans for the future. NASA&rsquo;s Artemis program aims to return humans to the Moon by 2025, with the goal of establishing a sustainable presence there and using it as a stepping stone for future missions to Mars. SpaceX, Blue Origin, and other private companies are also playing a pivotal role in the new space race, developing reusable rockets and spacecraft that could make space travel more accessible and affordable.
+  
+  The concept of space tourism is no longer science fiction. Companies like SpaceX, Blue Origin, and Virgin Galactic are working on providing suborbital and orbital flights for private citizens. Although in its infancy, space tourism could eventually lead to the establishment of space hotels and even the possibility of living and working in space.
+  
+  The Challenges of Space Exploration
+  
+  While the prospects for space exploration are exciting, the challenges are significant. The harsh environment of space presents numerous dangers to human health, including exposure to cosmic radiation, the effects of microgravity on the body, and the psychological impact of long-duration missions.
+</div>
+
+  <script src="./scripts/scropts.js"></script>
+</body>
+
+</html>
