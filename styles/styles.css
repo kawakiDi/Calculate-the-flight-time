@@ -149,6 +149,7 @@ button.active {
   min-width: 100%;
   font-size: 26px;
   text-align: center;
+  column-gap: 10px;
 }
 
 .dashboard__valueOfTime > li,
@@ -312,11 +313,13 @@ pointer-events: none;
 
   .dashboard__block {
     flex-direction: column;
+    height: 70px;
   }
 
   .list__type {
     width: 100%;
     padding-block: 10px;
+    font-size: 20px;
   }
 
 
@@ -326,6 +329,18 @@ pointer-events: none;
 
   .input {
     padding-right: 20px;
+    min-height: 30px;
+    font-size: 20px;
+    padding-top: 10px;
   }
 
+  .dashboard__valueOfTime,
+  .dashboard__typeOfTime {
+   column-gap: 10px;
+   font-size: 20px;
+  }
+
+  .dashboard__block:nth-child(1) {
+    min-height: 100px;
+  }
 }
